@@ -1,0 +1,299 @@
+@media screen and (min-width: 481px) {
+    .c-btn {
+        appearance: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 60px;
+        padding: 2.4rem;
+        outline: none;
+        font-size: 2rem;
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px solid grey;
+        border-radius: 0;
+        background: #fff;
+      }
+
+      .c-btn:hover {
+        color: #fff;
+        background: #ac0ff5;
+      }
+    .c-btn2 {
+        -webkit-appearance: none;
+        appearance: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height:  4.5rem;
+        padding: 0px;
+        border: none;
+        outline: none;
+        color:  whitesmoke;
+        font-size: 2rem;
+        text-decoration: none;
+        background: grey;
+        cursor: pointer;
+    }
+    .p-quiz {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .p-quiz-ttl {
+        margin: 0 0 20px;
+        font-size: 2rem;
+        font-weight: normal;
+    }
+    .p-quiz-next {
+        width: 300px;
+        margin: auto;
+        position: absolute;
+        left: 40%;
+        bottom: 80px;
+    }
+    .p-quiz-choices {
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 2rem 0 0 0;
+        padding-left: 0;
+    }
+    .p-quiz-choices__item {
+        width: calc(50% - 10px);
+        list-style: none;
+        margin: 5px;
+        font-size: 2rem;
+    }
+    .p-quiz-commentary{
+        font-size: 30px;
+    }
+
+
+
+    /* ドロワー、フッターに色をつける */
+    #ao{
+        color: blue;
+    }
+    #aka{
+        color: red;
+    }
+    /* ドロワー */
+    .mannaka{
+        text-align: center;
+    }
+    #kiiro{
+        background-color: #ebdf35;
+        width: auto;
+    }
+    #kiiro{
+        background-color: #333;
+        width: auto;
+    }
+
+    .drawer-hamburger-icon,
+    .drawer-hamburger-icon:after,
+    .drawer-hamburger-icon:before {
+        background-color: #333;
+    }
+
+    .saizu{
+        width: 15vw;
+        height: auto;
+        mix-blend-mode: color-burn;
+    }
+    img.saizu1{
+        width: 95%;
+    }
+
+    .waku{
+        display: block;
+        margin: auto;
+        padding: 15px;
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        height: 480px;
+        // padding-top: 1em;
+        padding: 1em 8em;
+        h1{
+            font-size: 4rem;
+        }
+    }
+    .waku1{
+        display: block;
+        margin: auto;
+        padding: 15px;
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        height: 480px;
+        // padding-top: 1em;
+        padding: 1em 8em;
+    }
+    .hin{
+        display: block;
+        text-align: center;
+        margin: 30px auto 0 auto;
+        background-color: #F2F92C;
+        cursor: pointer;
+    }
+    #p2{
+        font-size: 1.8rem;
+    }
+    #ma-ka{
+        // background: linear-gradient(transparent 60%, rgb(255, 164, 217) 0%);
+        // display: inline;
+        // padding: 0 1px 0px;
+    }
+    #a{
+        font-size: 60px;
+        margin: 0.5em 0px;
+
+    }
+    .js-quiz-content{
+        position: relative;
+        background: #fff;
+        padding: 50px;
+        border-radius: 30px;
+        margin: 0 25%;
+        margin: 70px 5% 0 5%;
+        min-height: 1000px;
+    }
+    
+}
+
+@media screen and (max-width: 480px){
+    .c-btn {
+        appearance: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 60px;
+        padding: 0;
+        outline: none;
+        font-size: 16px;
+        text-decoration: none;
+        border: 2px solid grey;
+        border-radius: 0;
+        background: rgb(221, 216, 216);
+        margin-top: 5px;
+      }
+    .c-btn2 {
+        display: block;
+        appearance: none;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 40px;
+        padding: 0;
+        border: none;
+        outline: none;
+        color:  whitesmoke;
+        font-size: 16px;
+        text-decoration: none;
+        background: grey;
+        text-align: center;
+        margin: auto;
+    }
+    .p-quiz-ttl {
+        margin: 0 0 20px;
+        font-size: 1em;
+    }
+    .p-quiz-choices__item {
+        list-style: none;
+        width: 100%;
+    }
+    .p-quiz-choices {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .waku{
+        background-color: white;
+        border-radius: 10px;display: block;
+        background-color: white;
+        border-radius: 10px;
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+    }
+    .waku1{
+        display: block;
+        background-color: white;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 70px;
+        padding: 10px;
+        text-align: center;
+    }
+    .saizu{
+        display: block;
+        width: 40vw;
+        height: auto;
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .saizu1{
+        display: block;
+        width: 100vw;
+        height: auto;
+        text-align: center;
+        margin: auto;
+        margin-top: 20vh;
+    }
+    .saizu2{
+        mix-blend-mode: color-burn;
+        display: block;
+        width: 40vw;
+        height: auto;
+        text-align: center;
+        margin: auto;
+        img{
+             mix-blend-mode: color-burn;
+        }
+    }
+    /* ドロワー、フッターに色をつける */
+    #ao{
+        color: blue;
+    }
+    #aka{
+        color: red;
+    }
+    /* ドロワー */
+    .mannaka{
+        text-align: center;
+    }
+    #kiiro{
+        background-color: #ebdf35;
+        width: auto;
+    }
+
+    .hin{
+        font-size: 20px;
+        margin: auto;
+        margin-top: 4px;
+        background-color: #F2F92C;
+    }
+
+    #ma-ka{
+        background: linear-gradient(transparent 60%, rgb(255, 164, 217) 0%);
+        display: inline;
+        padding: 0 1px 0px;
+    }
+
+    .drawer-hamburger-icon,
+    .drawer-hamburger-icon:after,
+    .drawer-hamburger-icon:before {
+        background-color: #333
+    }
+    #a{
+        font-size: 26px;
+        text-align: center;
+    }
+
+}
+
+

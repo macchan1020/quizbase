@@ -1,0 +1,162 @@
+{
+	"quiz": [
+		{
+			"m":"問題1",
+			"q": "雲泥の差を意味する（）に入る単語は",
+			"q2": "a world of （　　　）",
+			"a": [
+				"question",
+				"decision",
+				"prosperity",
+				"difference"
+			],
+			"hinto": "ヒントです。1",
+			"correct": 2,
+			"commentary": "説明1"
+		}, {
+			"m":"問題2",
+			"q": "内密に",
+			"q2": "（　　　） closed doors",
+			"a": [
+				"outo",
+				"onto",
+				"behind",
+				"into"
+			],
+			"hinto": "ヒントです。2",
+			"correct": 3,
+			"commentary": "説明2"
+		}, {
+			"m":"問題3",
+			"q": "疑いを晴らす",
+			"q2": "clear the （　　　）",
+			"a": [
+				"air",
+				"sky",
+				"water",
+				"room"
+			],
+			"hinto": "ヒントです。3",
+			"correct": 1,
+			"commentary": "説明3"
+		}, {
+			"m":"問題4",
+			"q": "活気づく",
+			"q2": "come back to（　　　）",
+			"a": [
+				"activity",
+				"life",
+				"health",
+				"wealth"
+			],
+			"hinto": "ヒントです。4",
+			"correct": 4,
+			"commentary": "説明4"
+		}, {
+			"m":"問題5",
+			"q": "福祉国家",
+			"q2": "（　　　） state",
+			"a": [
+				"wealthy",
+				"welfare",
+				"healthy",
+				"affair"
+			],
+			"hinto": "ヒントです。5",
+			"correct": 2,
+			"commentary": "説明5"
+		}, {
+			"m":"問題6",
+			"q": "要領を得て",
+			"q2": "to the （　　　）",
+			"a": [
+				"matter",
+				"point",
+				"cue",
+				"hint"
+			],
+			"hinto": "ヒントです。6",
+			"correct": 2,
+			"commentary": "説明6"
+		}, {
+			"m":"問題7",
+			"q": "空気がなければ地球上では何も生きられないだろう",
+			"q2": "（　　　）air, nothing could live on the earth.",
+			"a": [
+				"Without",
+				"With",
+				"Out of",
+				"None of"
+			],
+			"hinto": "ヒントです。7",
+			"correct": 1,
+			"commentary": "説明7"
+		}, {
+			"m":"問題8",
+			"q": "彼の助言がなければあなたは失敗するでしょう。",
+			"q2": "（　　　） for his advice, you would fail.",
+			"a": [
+				"Without",
+				"Out",
+				"Not",
+				"But"
+			],
+			"hinto": "ヒントです。8",
+			"correct": 4,
+			"commentary": "説明8"
+		}, {
+			"m":"問題9",
+			"q": "万一その火山が噴火したら、私たちの町は灰に覆われるだろう。",
+			"q2": "If the volcano （　　　） erupt, our town would be covered in ash.",
+			"a": [
+				"can",
+				"might",
+				"should",
+				"will"
+			],
+			"hinto": "ヒントです。9",
+			"correct": 3,
+			"commentary": "説明9"
+		}, {
+			"m":"問題10",
+			"q": "万一太陽が西から昇るようなことがあっても、彼女は決心を変えないだろう。",
+			"q2": "If the sun （　　　） to rise in the west, she wouldn't change her mind.",
+			"a": [
+				"come",
+				"is",
+				"were",
+				"be"
+			],
+			"hinto": "ヒントです。10",
+			"correct": 3,
+			"commentary": "説明10"
+		}
+	],
+	"rank": [
+		{  	"count": [
+				 9,
+				 10
+				],
+			"comment": "大成功！"
+            
+		}, {
+			"count": [
+				 5,
+				 6,
+				 7,
+				 8
+				],
+			"comment": "おしい"
+		}, {
+			"count": [
+				 1,
+				 2,
+				 3
+				],
+			"comment": "まあまあ"
+		}, {
+			"count": 0,
+			"comment": "残念"
+		}
+	]
+}
